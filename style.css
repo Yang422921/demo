@@ -1,31 +1,79 @@
 body{
 	font-family: Arial, sans-serif;
-	background-color:grey;
+
 }
 
 #container {
-	width:900px;
+	width: 100%;
+
+
+}
+
+.row {
+	width:1200px;
+	height:40px;
+	line-height:40px;
+	margin: auto;
+	color: white;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.top {
+	background-color: orange;
+}
+
+.header {
+	width:1200px;
 	margin:0 auto;
-	background-color: white;
-	padding:30px;
-}
-
-#header{}
-
-#header h1 {
-	background: url(images/bh_h1.jpg) top left no-repeat;
-	text-indent: -9999px;
-	height:;
-	width:;
-}
-
-#header h1 a:link, #header h1 a:visited {
-	display:block;
-	height:;
-	width:;
+	height: 140px;
 
 }
 
+
+.header h1 a{
+	line-height: 100px;
+	text-decoration: none;
+	color:white;
+	font-size: 40px;
+}
+
+#header{
+	background-color: black;
+}
+
+
+
+.left {
+	display:inline-block;
+	float:left;
+
+}
+
+.right {
+	display:inline-block;
+	float:right;
+
+}
+
+.right a {
+    float: right;
+    display: block;
+    color: white;
+    font-size: 18px;
+    text-align: right;
+    padding: 14px 0 16px 20px;
+    margin:80px auto auto auto;
+    text-decoration: none;
+
+}
+
+.right a:hover {
+	color: 	#0C6DA4;
+}
+
+
+/*
 #nav {
 	margin:0;
 	padding:0;
@@ -34,31 +82,44 @@ body{
 
 #nav li {
 	list-style:none;
-	float:left;
-	padding:0;
-	background-color:red;
-	border-radius: 5px 5px 0 0;
-	margin-right:10px;
+	float:right;
+
+	background-color:black;
+
+}
+
+#nav li a {
+	float:right;
+	display:block;
 }
 
 #nav li a:link, #nav li a:visited{
 	text-decoration:none;
 	display:block;
-	/*border-right:1px solid orange;*/
-	padding:10px;
+
+
 }
 
 #nav li a:hover{
 	background-color:yellow;
 	color:black;
 }
-
+*/
 #body{
-	background: url(images/bg.jpg) right repeat-y;
+
+	background-color: #f1f1f1;
+	width:100%;
+	margin:0;
+	padding:20px 0;
 }
 
 #body p {
 	line-height: 1.6em;
+}
+
+.body {
+	width: 1200px;
+	margin:0 auto;
 }
 
 .main{
@@ -68,16 +129,20 @@ body{
 
 .main-inner{
 	padding-right:60px;
+	margin-bottom: 0;
 }
 
 .side{
 	width:300px;
-	float:left;
+	float:right;
+	margin-bottom: 0;
 }
 
 #footer{
-	background-color:blue;
+	background-color:orange;
 	color:white;
+	text-align: center;
+	margin:-20px 0;
 }
 
 .clearfix: after{
